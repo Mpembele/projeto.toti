@@ -1,0 +1,59 @@
+/*.img1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top:0;
+    min-width: 100%;
+    min-height: 100%;
+  }*/
+
+
+  /*imag do fundo*/
+  .body {
+    text-align: center;
+    text-emphasis-color: #fff;
+    background-image: url(file:///C:/Users/Mpemb/projeto.git/pasta-img/b.p.jpeg);
+    background-color: #fff;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  .img1 {
+    border-style: double;
+  }
+
+  .bgm{
+    font-family: Lucida Handwriting;
+    color:#000
+  }
+  .bg {
+    font-family: "Roboto Mono", monospace;
+    color: #000;
+  }
+
+  .bg1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: cover;
+    color: #fff;
+  };
+
+ 
+
+    .botao {     
+      align-self: center;
+      height: 120px;
+      width: 120px;  
+      border-radius: 99px;
+      transition-duration: 0.3s;   
+      display: flex;   
+      position: relative;
+      background: var(--color-button);
+      color: var(--color-body);     
+      align-items: center;
+      justify-content: center;   
+      margin: 10px;
+      font-size: 1.5rem; 
+      cursor: pointer;
+    }
+  
